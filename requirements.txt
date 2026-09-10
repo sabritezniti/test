@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+sqlalchemy
+sqlite3
+excel_parser
+models
+timetable

@@ -1,0 +1,102 @@
+{
+  "name": "AI School Timetable Optimizer",
+  "description": "A Python FastAPI app to automate school timetable optimization from an Excel file.",
+  "languages": [
+    "python"
+  ],
+  "frameworks": [
+    "fastapi"
+  ],
+  "features": [
+    "api",
+    "excel",
+    "timetable"
+  ],
+  "architecture": "FastAPI backend with Excel parsing and timetable optimization logic.",
+  "database": "sqlite",
+  "api_style": "REST",
+  "frontend": "html",
+  "backend": "fastapi",
+  "dependencies": {
+    "python": [
+      "fastapi",
+      "uvicorn",
+      "sqlalchemy",
+      "pandas",
+      "openpyxl",
+      "reportlab"
+    ]
+  },
+  "file_tree": [
+    {
+      "path": "main.py",
+      "type": "file",
+      "language": "python",
+      "description": "FULL working FastAPI app with routes",
+      "content": null,
+      "children": []
+    },
+    {
+      "path": "requirements.txt",
+      "type": "file",
+      "language": "text",
+      "description": "pinned deps",
+      "content": null,
+      "children": []
+    },
+    {
+      "path": "README.md",
+      "type": "file",
+      "language": "markdown",
+      "description": "how to install and run",
+      "content": null,
+      "children": []
+    },
+    {
+      "path": "static/index.html",
+      "type": "file",
+      "language": "html",
+      "description": "simple working UI",
+      "content": null,
+      "children": []
+    },
+    {
+      "path": "timetable.py",
+      "type": "file",
+      "language": "python",
+      "description": "Logic for timetable optimization",
+      "content": null,
+      "children": []
+    },
+    {
+      "path": "excel_parser.py",
+      "type": "file",
+      "language": "python",
+      "description": "Logic for parsing Excel files",
+      "content": null,
+      "children": []
+    },
+    {
+      "path": "models.py",
+      "type": "file",
+      "language": "python",
+      "description": "Database models using SQLAlchemy",
+      "content": null,
+      "children": []
+    },
+    {
+      "path": "database.py",
+      "type": "file",
+      "language": "python",
+      "description": "Database setup and connection logic",
+      "content": null,
+      "children": []
+    }
+  ],
+  "tasks": [],
+  "notes": [
+    "run: uvicorn main:app --reload",
+    "run: pip install -r requirements.txt && uvicorn main:app --reload"
+  ],
+  "raw_architect_output": "{\n  \"name\": \"AI School Timetable Optimizer\",\n  \"description\": \"A Python FastAPI app to automate school timetable optimization from an Excel file.\",\n  \"languages\": [\"python\"],\n  \"frameworks\": [\"fastapi\"],\n  \"features\": [\"api\", \"excel\", \"timetable\"],\n  \"architecture\": \"FastAPI backend with Excel parsing and timetable optimization logic.\",\n  \"database\": \"sqlite\",\n  \"api_style\": \"REST\",\n  \"frontend\": \"html\",\n  \"backend\": \"fastapi\",\n  \"run_command\": \"uvicorn main:app --reload\",\n  \"dependencies\": {\n    \"python\": [\"fastapi\", \"uvicorn\", \"sqlalchemy\", \"pandas\", \"openpyxl\", \"reportlab\"]\n  },\n  \"file_tree\": [\n    {\"path\": \"main.py\", \"type\": \"file\", \"language\": \"python\", \"description\": \"FULL working FastAPI app with routes\"},\n    {\"path\": \"requirements.txt\", \"type\": \"file\", \"language\": \"text\", \"description\": \"pinned deps\"},\n    {\"path\": \"README.md\", \"type\": \"file\", \"language\": \"markdown\", \"description\": \"how to install and run\"},\n    {\"path\": \"static/index.html\", \"type\": \"file\", \"language\": \"html\", \"description\": \"simple working UI\"},\n    {\"path\": \"timetable.py\", \"type\": \"file\", \"language\": \"python\", \"description\": \"Logic for timetable optimization\"},\n    {\"path\": \"excel_parser.py\", \"type\": \"file\", \"language\": \"python\", \"description\": \"Logic for parsing Excel files\"},\n    {\"path\": \"models.py\", \"type\": \"file\", \"language\": \"python\", \"description\": \"Database models using SQLAlchemy\"},\n    {\"path\": \"database.py\", \"type\": \"file\", \"language\": \"python\", \"description\": \"Database setup and connection logic\"}\n  ],\n  \"tasks\": [],\n  \"notes\": [\"run: pip install -r requirements.txt && uvicorn main:app --reload\"]\n}"
+}
